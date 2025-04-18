@@ -108,7 +108,7 @@
   padding: 100px 80px 215px;
 }
 
-.recipes__iframe {
+.recipes__videos {
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -140,4 +140,8 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+.recipes__iframe {
+  border: none;
 }
