@@ -25,13 +25,6 @@
   letter-spacing: -0.6px;
 }
 
-.header__span-accent {
-  display: block;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: italic;
-  color: #3f96f3;
-}
-
 .header__description {
   font-family: "Noto Serif";
   font-style: normal;
@@ -40,6 +33,13 @@
   line-height: 30px;
   margin: 28px 0 0;
   max-width: 683px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  color: #3f96f3;
 }
 
 .header__image {
