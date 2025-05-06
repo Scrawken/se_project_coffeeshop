@@ -1,13 +1,14 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 0
 }
 
 .nav__logo {
   width: 105px;
   height: 39px;
-  position: relative;
-  left: -50px;
+  margin-left: -50px;
 }
 
 .nav__links {
@@ -21,9 +22,15 @@
 .nav__link {
   text-decoration: none;
   color: #000;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
+  transition: color 0.3s ease;
+}
+.nav__link:hover,
+.nav__link:focus {
+  color: #555;
+  outline: none;
 }

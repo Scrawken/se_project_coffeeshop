@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.menu_title {
+.menu__title {
   margin: 0 0 24px;
   padding: 0;
   width: 100%;
@@ -44,3 +44,16 @@
   justify-content: center;
   gap: 100px;
  }
+ @media (max-width: 768px) {
+  .menu {
+    padding: 60px 20px;
+  }
+
+  .menu__subtitle {
+    margin-bottom: 60px;
+  }
+
+  .menu__cards {
+    gap: 40px;
+  }
+}

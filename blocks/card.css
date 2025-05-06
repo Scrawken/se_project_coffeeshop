@@ -37,8 +37,20 @@
   margin-bottom: 0;
 }
 
+.card,
+.card__list-item {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .card__list-divider {
   border-bottom: 1px solid #000;
   width: auto;
   flex-grow: 1;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: 500px;
+  }
 }
