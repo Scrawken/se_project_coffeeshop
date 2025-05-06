@@ -7,7 +7,7 @@
 
 .recipes__title {
   margin: 0 0 24px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter",  Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2.75rem;
@@ -28,8 +28,10 @@
 
 .recipes__iframe {
   border: none;
-  max-width: 100%;
   height: auto;
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
 }
 
 .recipes__videos {
@@ -39,6 +41,7 @@
   list-style-type: none;
   padding:0;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .recipes__videos li {
