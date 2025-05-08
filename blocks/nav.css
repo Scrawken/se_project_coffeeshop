@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0
 }
 
 .nav__logo {
@@ -27,10 +26,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  transition: color 0.3s ease;
+  transition: opacity 0.3s ease;
 }
-.nav__link:hover,
-.nav__link:focus {
-  color: #555;
-  outline: none;
+.nav__link:hover {
+  opacity: 0.5;
 }
