@@ -43,7 +43,3 @@
   flex-wrap: wrap;
   margin: 0;
 }
-.recipes__video-item {
-  flex: 0 0 560px;
-  max-width: 100%;
-}
